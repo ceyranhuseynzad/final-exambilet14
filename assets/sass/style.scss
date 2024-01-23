@@ -1,0 +1,222 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.contanier{
+    max-width: 1400px;
+
+}
+ a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+.head7{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(80, 63, 63);
+    width: 100%;
+    height: 40px;
+}
+#nav{
+    min-height: 100vh;
+    
+    background:url(https://preview.colorlib.com/theme/tasty/images/bg_1.jpg) ;
+    color: aliceblue;
+    .row{
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        color: yellow;
+    }
+    .text{
+        color: rgb(255, 251, 3);
+       padding-top: 200px;
+     
+    }
+    .navbar{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        button{
+            background-color: transparent;
+            border: 2px solid yellow;
+            color: rgb(255, 251, 8);
+            font-size: 30px;
+            width: 200px;
+            height: 60px;
+           
+            
+            margin: auto;
+            display: flex;
+        }
+        .logo{
+            width: 100px;
+            height: 40px;
+           
+      
+        }
+        ul{
+            list-style: none;
+            .ul{
+                display: flex;
+                justify-content: space-around;
+                color: aliceblue;
+                list-style: none;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 600px) {
+    .text{
+       font-size: 7px;
+       display: flex;
+       flex-direction: column;
+       margin: auto;
+       align-items: center;
+       margin-bottom: 50%;
+    }
+  
+  }
+
+.cooker{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+    color: gray;
+ 
+    .hdr{
+        display: flex;
+      align-items: center;
+      flex-direction: column;
+      margin: auto;
+ 
+    }
+}
+@media only screen and (max-width: 600px) {
+    .cooker{
+        flex-direction: column;
+    }
+  
+  }
+.cook1{
+    background-color: rgb(255, 255, 255);
+    color: gray;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    .head{
+        font-size: 40px;
+        text-align: center;
+        padding: 20px;
+    }
+    .images1{
+        display: flex;
+        justify-content: space-around
+    
+
+     
+    }
+
+img{
+    border-radius: 100%;
+    width: 200px;
+
+}
+
+}
+@media only screen and (max-width: 600px) {
+    .cook1{
+        flex-direction: column;
+        
+    }
+
+  }
+.cook{
+    background-color: rgb(255, 255, 255);
+    color: gray;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    .head{
+        font-size: 40px;
+        text-align: center;
+        padding: 20px;
+    }
+    .images{
+        display: flex;
+        justify-content: space-around;
+        gap: 20px;
+    }
+    img{
+        width: 300px;
+        height: 200px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .images{
+        display: flex;
+       flex-direction: column;
+     
+    
+  }
+.foother{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(0, 29, 110);
+    ul{
+        list-style: none;
+    }
+    
+    .a{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+   input{
+    width: 200px;
+    height: 50px;
+   }
+
+}
+@media only screen and (max-width: 600px) {
+    .foother{
+        flex-direction: column;
+    }
+  }
+.section-cards{
+   
+    background-color: rgb(252, 252, 252);
+    h1{
+        text-align: center;
+    }
+    .search-sort{
+       display: flex;
+       justify-content: center;
+       gap: 20px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .section-cards{
+        width: 60%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-around;
+        margin: auto;
+        margin-bottom: 20%;
+        border-radius: 6%;
+     margin-bottom: 20%;
+       
+    }
+    
+  }
+  .star{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+  }
